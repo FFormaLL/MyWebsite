@@ -20,19 +20,35 @@ Query Selector - selecting elements to do something with
 
 .gpuRTX iframe {
     width: 100% ;
+    height: 50% ;
     border-radius: 0 0 10px 10px ;
 }
 
 .gpuRTX h2 {
+    padding: 0 5px 0 5px;
     text-align: center;
 }
 
 .gpuRTX p {
-    text-align: center;
+    padding: 0 10px 0 10px ;
+    text-align: justify;
 }
 
 body {
-    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     background: #000;
     text-align: right;
+}
+
+@media screen and (min-width: 400px) {
+    .gpuRTX {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .gpuRTX {
+        width: 700px;
+    }
 }
