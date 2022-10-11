@@ -1,0 +1,38 @@
+/* Rule-name: Rule-Value; 
+
+Query Selector - selecting elements to do something with
+  .className
+  #idName
+  tagName
+  > means has to be immediate child of class
+
+  Order of CSS 0 0 0 0 Starts at top left and goes clockwise
+ */
+
+.gpuRTX {
+    width: 320px ;
+    display: inline-block ;
+    border: 1px solid white ; 
+    border-radius: 10px ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3) ;
+}
+
+
+.gpuRTX iframe {
+    width: 100% ;
+    border-radius: 0 0 10px 10px ;
+}
+
+.gpuRTX h2 {
+    text-align: center;
+}
+
+.gpuRTX p {
+    text-align: center;
+}
+
+body {
+    color: aqua;
+    background: #000;
+    text-align: right;
+}
